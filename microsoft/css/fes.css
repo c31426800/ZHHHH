@@ -1,0 +1,589 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 54%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+
+    height: 54px;
+}
+
+.nav-wrap {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-logo {
+    width: 131px;
+    padding: 16px 6px 16px 10px;
+}
+
+.nav-left {
+    width: calc(100% - 131px - 319.141px);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-left ul li {
+    padding: 16px 8px 10px 8px;
+}
+
+
+.nav-right {
+
+    width: 391.141px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.nav-right .w-full .ul-1 .ul-2 li {
+    padding: 14px 15px 15px;
+    font-size: 15px;
+}
+
+.mid-1 {
+    display: flex;
+    justify-content: center
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* li .text-365::before {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+li .text-365:hover {
+    display: inline;
+} */
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+
+}
+
+#burger:checked+ul {
+    display: flex;
+}
+
+.ul-1 {
+
+    position: absolute;
+    top: 55px;
+    right: 0px;
+    background-color: #e07575;
+    width: 1230px;
+    ;
+    height: 455.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: none;
+    z-index: 2;
+
+
+
+}
+
+.ul-2 {
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+li {
+
+    list-style: none;
+
+
+}
+
+
+
+
+.card-body {
+    position: relative;
+
+}
+
+a {
+    color: #0067b8;
+}
+
+.product {
+    position: absolute;
+    bottom: 160px;
+    margin-left: 180px;
+    background-color: #616161;
+
+}
+
+.yellow-3 {
+    width: 72px;
+    height: 28px;
+    background-color: #ffb900;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.learn {
+    background-color: #0067b8;
+    width: 92px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #fff
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.lg-coll {
+    position: relative;
+}
+
+.lg-col {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #616161;
+    top: 0px;
+    right: 60%;
+    
+}
+
+#function .container_1 {
+    width: 100%;
+    height: 84px;
+
+    background-color: bisque;
+}
+
+#function .container_2 {
+
+    height: auto;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#function .container_2-1 {
+
+    height: 200px;
+    margin-left: 30px;
+
+    display: flex;
+
+}
+
+
+.icon-1 {
+    background-image: url(../../img/icon/gldn-Microsoft-365.jfif);
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+
+}
+
+.icon-2 {
+    background-image: url(./../img/icon/icon-120x120.jfif);
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.bot {
+
+    width: 91%;
+    height: auto;
+
+
+
+
+}
+
+.card {
+    padding: 5px;
+    width: 25%;
+
+
+}
+
+.card-2 {
+    padding: 5px;
+    width: 25%;
+
+}
+
+.cardd {
+    padding: 5px;
+    width: 25%
+}
+
+.card-4 {
+    padding: 5px;
+    width: 25%
+}
+
+
+
+/* .card {
+    margin-right: 50px;
+    ;
+} */
+
+.c {
+    margin-bottom: 10px;
+}
+
+.size {
+    font-size: 1.8125rem;
+}
+
+
+.pic-top {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0 5%;
+    height: auto;
+
+
+}
+
+.text-bot {
+
+
+    width: 30%;
+    height: 40%;
+    top: 41%;
+    left: 10%;
+    position: absolute;
+    background-color: #8f823c;
+
+
+
+
+}
+
+.bg-blue {
+    background-color: #0067b8;
+    width: 92px;
+    height: 40px;
+}
+
+.ard-2text-white {
+    color: #fff;
+}
+
+/* .pic-top {
+    width: 100%;
+    height: auto;
+} */
+
+.pic {
+    position: relative;
+}
+
+.butt {
+    background-color: #0067b8;
+    color: #fff;
+    width: 92px;
+    height: 40px;
+}
+
+.bot-card {
+
+    width: 91%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.font{font-weight: 600;}
+.p-5 {
+    padding: 5px;
+    width: 25%;
+}
+.bg{background-color:#ffb900 ;width: 72px;height: 28px;}
+.mt{margin-top: 25px;}
+.bot-card-1 {
+    background-image: url(./../img/Surface-Laptop-Go-2-03-M01.jfif);
+    width: 380px;
+    height: 213px;
+}
+
+.card-blue {
+    background-image: url(./../img/gldn-Teams-Commercial.jfif);
+    width: 380px;
+    height: 213px;
+}
+
+.card-fff {
+    background-image: url(./../img/M365-Microsoft365-Commercial.jfif);
+    width: 380px;
+    height: 213px;
+}
+
+.card-white {
+    background-image: url(./../img/Content-11-Business.jfif);
+    width: 380px;
+    height: 213px;
+}
+
+.FB-vo {
+
+    width: 100%;
+    height: 100px;
+}
+
+.img-2 {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+}
+
+.nav-row {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.nav-row .inner-nav-row {
+    width: 90%;
+}
+.nav-row .inner-nav-row .inner-nav-box{
+   padding-right: 12px;
+   width: calc(100%/6);
+}
+.footer-item{
+    padding-left: 24px;
+    padding-bottom: 4px;
+}
+
+.li-1 {
+    padding: 12px 0px 12px 24px;
+    /* width: 20%; */
+}
+
+
+
+.size-1 {
+    font-size: 11px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.size-2 {
+    font-size: 15px;
+    font-weight:600;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.color-61 {
+    color: #616161;
+}
+
+@media(max-width: 1400px) {
+    .nav-right ul li span {
+        display: none;
+    }
+
+    .card {
+        width: calc(100% / 2);
+    }
+
+    .card-2 {
+        width: calc(100% /2);
+    }
+
+    .cardd {
+        width: calc(100% / 2);
+    }
+
+    .card-4 {
+        width: calc(100% / 2);
+    }
+
+
+
+}
+
+@media (max-width: 1084px) {
+    .card {
+        width: calc(100% / 2);
+    }
+
+    .card-2 {
+        width: calc(100% /2);
+    }
+
+    .cardd {
+        width: calc(100% / 2);
+    }
+
+    .card-4 {
+        width: calc(100% / 2);
+    }
+
+    .bot {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p-5 {
+        width: calc(100% / 2);
+    }
+
+    .bot-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pic-top {
+        padding: 0px;
+    }
+
+    .product {
+        width: 100%;
+        height: auto;
+        bottom: -29%;
+        right: 0%;
+    }
+    .text-bot{
+        width: 100%;
+        height: 50%;
+        top: 100%;
+        left: 0%;
+       
+    }
+    .nav-row .inner-nav-row .inner-nav-box{
+        width: calc(100%/3);
+    }
+}
+
+
+
+
+@media(max-width: 860px) {
+    .nav-logo {
+        order: 2;
+    }
+
+    .nav-left {
+        order: 1;
+    }
+
+
+    .nav-right {
+        order: 3;
+    }
+
+    .nav-right ul li:nth-child(1),
+    .nav-right ul li:nth-child(2) {
+        display: none;
+    }
+
+    .nav-right i {
+        margin-left: 330px;
+    }
+
+    .product {
+        /* bottom: 203px;
+        background-color: #f2f2f2;
+        width: 756px;
+        height: 174.8px; */
+    }
+}
+
+@media(max-width: 540px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-2 {
+        width: 100%;
+    }
+
+    .cardd {
+        width: 100%;
+    }
+
+    .card-4 {
+        width: 100%;
+    }
+
+    .bot {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p-5 {
+        width: 100%;
+    }
+
+    .bot-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav-row .inner-nav-row .inner-nav-box{
+        width: 100%;
+    }
+    .footer-wrap .footer-one{
+        width: 100%;
+    }
+    .footer-wrap .footer-two{
+        margin-top: 10px;
+    }
+
+    .footer-item{
+        padding-left: 0px;
+        padding-right: 24px;
+    }
+
+    #function .container_2-1:nth-child(1),
+    #function .container_2-1:nth-child(2){
+        width: 50%;
+    }
+    #function .container_2-1:last-child{
+        width: 100%;
+    }
+}

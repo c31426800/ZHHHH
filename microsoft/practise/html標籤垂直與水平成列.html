@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        height:768px ;
+        width:1024px ;
+        background-color: black;
+    }
+    .item{
+        height: calc(768px/3);
+    }
+    .item-1{
+        background-color: aqua;
+        width: 300px;
+    }
+    .item-2{
+        background-color: blue;
+        width: 300px;
+    }
+    .item-3{
+        background-color: brown;
+        width: 300px;
+    }
+    .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    }
+</style>
+<body>
+   <h1>div 預設的顯示方式</h1>
+   <div class="container">
+        <div class="item item-1"></div>
+        <div class="item item-2"></div>
+        <div class="item item-3"></div>
+   </div> 
+
+   <h1>div設定為水平顯示 這是float: left</h1>
+   <div class="container">
+        <div class="item item-1 fl"></div>
+        <div class="item item-2 fl"></div>
+        <div class="item item-3 fl"></div>
+   </div> 
+
+   <h1>div設定為水平顯示 這是float: right</h1>
+   <div class="container">
+        <div class="item item-1 fr"></div>
+        <div class="item item-2 fr"></div>
+        <div class="item item-3 fr"></div>
+   </div> 
+
+
+
+</body>
+</html>

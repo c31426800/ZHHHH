@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div class="nav h-5 bg-black df align-c">
+        <div class="nav-start bg-blue"></div>
+        <div class="nav-center bg-yellow"></div>
+        <div class="nav-end bg-red"></div>
+    </div>
+</body>
+</html>
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .nav{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-start{
+        width: 131px;
+        height: 54px;
+        padding: 16px 6px 16px 10px;
+
+    }
+    .nav-center{
+        width: calc(100% - 131px - 255.141px);
+        height: 54px;
+    }
+    .nav-end{
+        width: 255.141px;
+        height: 54px;
+    }
+</style>
